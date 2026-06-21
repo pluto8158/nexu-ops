@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Cache
+.cache/
+.eslintcache
+.parcel-cache/
+.vite/
+
+# Test coverage
+coverage/
+*.lcov
+
+# Design source files (ignored from version control)
+design/
+
+# Misc
+*.local
+*.pid
+*.seed
+*.pid.lock
