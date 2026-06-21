@@ -2,7 +2,9 @@
 
 > ⚠️ 本项目**仅包含前端代码**，不包含任何后端服务、数据库或 API 实现。所有数据均为前端 Mock 或通过环境变量配置的外部接口获取。
 
-一个基于 React + TypeScript + Vite 构建的现代化运营管理平台前端项目，提供仪表盘、报表分析、数据管理、用户与权限等模块。
+[![在线演示](https://img.shields.io/badge/Live_Demo-Click_here-2ea44f?style=for-the-badge&logo=githubpages)](https://pluto8158.github.io/nexu-ops/)
+
+一个基于 React + TypeScript + Vite 构建的现代化运营管理平台前端项目，提供仪表盘、报表分析、数据管理、用户与权限等模块。每次推送到 `main` 分支后，GitHub Actions 会自动构建并部署到 GitHub Pages，点击上方徽章即可进入在线演示。
 
 ## 技术栈
 
@@ -93,6 +95,14 @@ npm run preview
 - **Users（用户）**: 用户与权限管理
 - **Settings（设置）**: 系统与个人偏好设置
 - **Login / Register**: 登录与注册
+
+## 部署说明
+
+项目通过 GitHub Actions 自动部署到 GitHub Pages：
+
+1. 在 GitHub 仓库 Settings → Pages → Build and deployment → Source 选择 **GitHub Actions**
+2. 推送到 `main` 分支后，[.github/workflows/deploy.yml](file:///c:/System/Desktop/NexusOps/.github/workflows/deploy.yml) 会自动构建并发布
+3. 部署完成后访问：https://pluto8158.github.io/nexu-ops/
 
 ## 许可证
 
